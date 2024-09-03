@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color:#D3F2E9
+  }
+  .column1{
+    margin-left:30px;
+    text-align: center;
+    width:350px;
+  
+  }
+  .column2{
+    margin-right:20px;
+    margin-left:40px;
+    text-align: center;
+    width:350px;
+  }
+  .column3{
+    margin-left:20px;
+    text-align: center;
+    width:350px;
+    
+  }
+  .row{
+    display:flex;
+    margin-left:20px;
+    margin-top:20px;
+    
+  }
+  h1{
+    font-family:"Montserrat";
+    padding-left:50px;
+    color:#17252A;
+    font-weight:bold;
+    padding-top:50px;
+  }
+  p{
+    font-family:"Montserrat";
+    color:#17252A;
+    font-weight:bold;
+    font-size:25px;
+  }
+  
+  
+  img{
+    height:350px;
+    width:350px; 
+  }
+  
+  .studyresources {
+    object-fit: cover;
+  }
+  
+  .nav-bar {
+      overflow: hidden;
+    padding-right:100px;
+  
+    }
+    
+    .nav-bar a {
+      float: right;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 30px;
+      margin:20px;
+      font-family:"Montserrat";
+      font-weight:bold;
+    }
+    
+    .nav-bar a:hover {
+      background-color: #7CA8A1;
+      color: black;
+    }
+    
+    .nav-bar a.active {
+      background-color: #2196F3;
+      color: white;
+    }
+  .box{
+    background-color: white;
+    margin-left:20px;
+    margin-right:20px;
+    height:1000px;
+    margin-block-end: 30px;
+  }
+  
+  

@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>SIGN IN</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h2>Sign in</h2>
+    <a href="#" id="signInLink">Sign In</a>
+    <div class="modal" id="signInModal">
+      <div class="modal-content">
+        <span id="closeButton">&times;</span>
+        <h2>Sign In</h2>
+        <form id="signInForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username"><br><br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password"><br><br>
+          <button class="button" id="signInFormButton">Sign In</button>
+        </form>
+      </div>
+    </div>
+    <script>
+      const modal = document.getElementById('signInModal');
+      const signInLink = document.getElementById('signInLink');
+      const closeButton = document.getElementById('closeButton');
+
+      signInLink.onclick = function() {
+        modal.style.display = 'block';
+      }
+
+      closeButton.onclick = function() {
+        modal.style.display = 'none';
+      }
+
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = 'none';
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>learningNest</title>
+  <script src = "https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="game1.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="game1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav class="nav-bar">
+  <article>
+   <a href="index.html">Home</a></article>
+  <article>
+    <a href="learn.html">Learn</a>
+  </article>
+  <article>
+    <a href="games.html">Play</a>
+  </article>
+  </nav>
+<div class="box">
+<h1>Algebra 1: Basic Operations</h1>
+  <p>Show your progress through this game!</p>
+  <form id="quiz">
+    <!--Question 1 -->
+    <h2>Q.1) Is 6,725,991 − 25 positive or negative?</h2>
+    <label><input type="radio" name="q1" value="c">
+      Positive
+    </label><br />
+    <label><input type="radio" name="q1"
+  value="in">
+      Negative
+    </label><br />
+    
+    
+<!-- Question 2 -->
+    <h2>Q.2) Multiply: -12 x -7</h2>
+  <label><input type="radio" name="q2" value="in">
+      -19
+    </label><br />
+    <label><input type="radio" name="q2"
+
+value="c">
+      84
+    </label><br />
+    <label><input type="radio" name="q2"
+
+  value="in">
+      19
+    </label><br />
+    <label><input type="radio" name="q2"
+
+      value="in">
+      -84
+    </label><br /> 
+
+<!-- Question 3 -->
+    <h2>Q.3) Evaluate the following expression:</h2>
+<h3>(8 + 7)(1 + 7)</h3> 
+    <label><input type="radio" name="q3" value="in">
+      19
+    </label><br />
+
+  <label><input type="radio" name="q3" value="in">
+      22
+    </label><br />
+      
+   <label><input type="radio" name="q3" value="in">
+      392
+    </label><br />
+
+    <label><input type="radio" name="q3" value="c">
+     120
+    </label><br />
+
+  <!-- Question 4 -->
+    <h2>Q.4) (4 + 8) + (3 x 8) ÷ 3 </h2>
+      <label><input type="radio" name="q4" value="in">
+      39
+    </label><br />
+
+      <label><input type="radio" name="q4" value="c">
+      20
+    </label><br />
+
+    <label><input type="radio" name="q4" value="in">
+   26   
+    </label><br />
+
+  <!--Question 5 -->
+      <h2>Q.5) 5 x (4 ÷ 1<sup>2</sup> + 8)</h2>
+      
+      <label><input type="radio" name="q5" value="in">50
+    </label><br />
+      
+      <label><input type="radio" name="q5" value="in">18
+    </label><br />
+
+    <label><input type="radio" name="q5" value="c">60
+    </label><br />
+
+    <label><input type="radio" name="q5" value="in">17
+    </label><br />
+
+<!--Question 6-->
+      <h2>Q.6) 25 + 3 x 2 - 83 </h2>
+      <label><input type="radio" name="q6" value="in"> 57
+    </label><br /> 
+      
+      <label><input type="radio" name="q6" value="c"> -52
+    </label><br />
+
+    <label><input type="radio" name="q6" value="in">50
+    </label><br />
+
+    <label><input type="radio" name="q6" value="in">-49
+    </label><br />
+    
+</form>
+<!--Submit/Reset-->
+   <button type="submit" class="buttons" id="submit" onclick="tabulateAnswers()">Submit Your Answers</button>
+ 
+ 
+  
+  
+
+
+  <div id="answer">Your result will show up here!</div>
+</div>
+
+  <!--
+  
+  
+This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
+-->
+<script src="game1.js" theme="blue" defer></script> 
+</body>
+
+</html>
